@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+<LinearLayout
+    android:id="@+id/line_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/splash_logo"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="120dp">
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tve_3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="用户名登录"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/shape_1"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_user"/>
+
+    <TextView
+        android:id="@+id/tve_1"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_1"
+        android:drawableLeft="@drawable/account_sina"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:text="新浪微博"
+        android:textSize="30sp" />
+
+<TextView
+    android:id="@+id/tve_2"
+    android:layout_width="250dp"
+    android:layout_height="55dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="腾讯微博"
+    android:textSize="30sp"
+    android:background="@drawable/shape_1"
+    android:layout_marginTop="15dp"
+    android:drawableLeft="@drawable/account_tencent"
+    android:paddingLeft="30dp"/>
+    <TextView
+        android:id="@+id/tve_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

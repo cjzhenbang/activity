@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_register">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_back_register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="30sp"
+        android:textColor="#2196F3"
+        android:layout_toRightOf="@+id/btn_2"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="35dp"
+        android:paddingLeft="10dp"/>
+</RelativeLayout>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_2"
+        android:hint="用户名"
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:paddingLeft="10dp"
+        android:drawablePadding="5dp"
+        android:textColor="#00E91E1E"/>
+
+<EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_2"
+        android:hint="密码"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:paddingLeft="10dp"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="注册"
+        android:textSize="25sp"
+        android:background="@drawable/shape_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
